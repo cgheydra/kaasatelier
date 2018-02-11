@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Het Kaasatelier</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700" rel="stylesheet">		
+		<link rel="stylesheet" type="text/css" href="styles/main.css" />
+		<link rel="stylesheet" type="text/css" href="styles/navigation.css" />
+		<link rel="stylesheet" type="text/css" href="styles/header.css" />
+		<link rel="stylesheet" type="text/css" href="styles/contact.css" />
+
+	</head>
+	<body class="contact">
+		<div class="container">
+			<header>
+				<h1>Het Kaasatelier</h1>
+				<nav>
+					<ul>
+						<li><a href="homepage.html">Homepage</a></li>
+						<li><a href="assortiment.html">Assortiment</a></li>
+						<li class="active"><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<h2>Contact</h2>
+				<p>
+					Via het onderstaande formulier kan je een contact opnemen voor een bestelling. Je kan ons ook direct mailen via: <a href="mailto:info@hetkaasatelier.nl">info@hetkaasatelier.nl</a>
+				</p>
+				<form action="contact.html" method="post">
+					<div class="field-container">
+						<label for="name">Naam:</label>
+						<input type="text" name="name" id="name">
+					</div>
+					<div class="field-container">
+						<label for="email">E-mail:</label>
+						<input type="email" name="email" id="email" required="required">
+					</div>
+					<div class="field-container">
+						<label for="message">Bericht:</label>
+						<textarea id="message"></textarea>
+					</div>
+					<input type="submit" value="Verzenden" />
+				</form>
+			</main>
+		</div>
+		<footer>&copy; Het Kaasatelier 2017</footer>
+
+	</body>
+</html>

@@ -1,0 +1,25 @@
+/* assortiment */
+table.cheeses {
+	font-size: 13px;
+	line-height: 15px;
+	border-spacing: 0;
+}
+table.cheeses th,
+table.cheeses td {
+	border: 1px solid #828282;
+	padding: 4px;
+}
+table.cheeses th {
+	font-style: italic;
+	background: #C4C4C4;
+}
+table.cheeses td {
+	vertical-align: top;
+}
+table.cheeses th.article,
+table.cheeses th.price {
+	width: 160px;
+}
+table.cheeses tr:nth-child(even) {
+	background-color: #FBF0CF;
+}

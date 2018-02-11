@@ -1,0 +1,51 @@
+/* contact */
+.contact h2 {
+	font-size: 22px;
+	margin: 40px 0 20px 0;
+}
+.contact p {
+	width: 503px;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 0 25px 0;
+}
+.field-container {
+	padding: 5px 0;
+	margin: 0 0 10px 0;
+}
+form {
+	width: 590px;
+	font-size: 14px;
+	overflow: hidden;
+}
+.field-container label {
+	padding: 8px 0;
+	width: 114px;
+	float: left;
+	font-weight: 700;
+}
+input[type=email],
+input[type=text],
+textarea {
+	width: 187px; /* 207 */
+	padding: 8px 10px;
+	border: 1px solid #828282;
+}
+
+textarea {
+	display: block;
+	clear: left;
+	width: 566px; /*590*/
+	height: 160px;
+}
+input[type=submit] {
+	float: right;
+	padding: 0;
+	border: 0;
+	width: 191px;
+	text-align: center;
+	background-color: #C4C4C4;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+}

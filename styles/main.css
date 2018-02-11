@@ -1,0 +1,28 @@
+/* general */
+body {
+	margin: 0;
+	background-color: #e5e5e5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #000;
+}
+a {
+	color: #2F80ED;
+	text-decoration: underline;
+}
+.container {
+	width: 870px;
+	padding: 40px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/* footer */
+footer {
+	clear: left;
+	background-color: #e5e5e5;
+	font-size: 13px;
+	font-style: italic;
+	padding: 10px;
+	text-align: center;
+}
